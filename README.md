@@ -7,7 +7,7 @@ WeUI Extension 是在 [WeUI](https://github.com/weui/weui) 的基础上整合进
 
 ## 演示
 
-[](qrcode.png)
+![](qrcode.png)
 
 https://pengtikui.github.io/weui-extension/
 
