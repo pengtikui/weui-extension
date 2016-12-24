@@ -1,0 +1,203 @@
+.weui-wepay-lists {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+}
+.weui-wepay-lists .weui-cell__title {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #000000;
+}
+.weui-wepay-lists .weui-cell__info {
+    font-size: 12px;
+    line-height: 1.6;
+    color: #999999;
+}
+.weui-wepay-lists__hd {
+    position: relative;
+    padding: 10px 0;
+    background-color: #FFFFFF;
+}
+.weui-wepay-lists__bd {
+    -webkit-box-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.weui-wepay-lists__menu {
+    width: 54%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 1px solid #00c800;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 30px;
+    border-radius: 5px;
+}
+.weui-wepay-lists__menu__item {
+    -webkit-box-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+    background-color: #FFFFFF;
+    line-height: 28px;
+    text-align: center;
+    color: #00c800;
+    font-size: 14px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.weui-wepay-lists__menu__item.weui-wepay-lists__menu__item_on {
+    background-color: #00c800;
+    color: #ffffff;
+}
+.weui-wepay-lists__menu__item:first-child {
+    border-radius: 4px 0 0 4px;
+}
+.weui-wepay-lists__menu__item:last-child {
+    border-radius: 0 4px 4px 0;
+}
+.weui-wepay-list {
+    background-color: #FFFFFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    padding: 10px 15px;
+}
+.weui-wepay-list:after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 1px;
+    border-bottom: 1px solid #DDDDDD;
+    color: #DDDDDD;
+    -webkit-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+    -webkit-transform: scaleY(0.5);
+            transform: scaleY(0.5);
+}
+.weui-wepay-list:active {
+    background-color: #ececec;
+}
+.weui-wepay-lists .weui-check:checked + .weui-icon-checked:before {
+    content: '\EA06';
+    color: #09BB07;
+}
+.weui-wepay-lists .weui-icon-checked:before {
+    content: '\EA01';
+    color: #C9C9C9;
+    font-size: 23px;
+    display: block;
+}
+.weui-wepay-list__hd {
+    margin-right: 0.625em;
+}
+.weui-wepay-list__bd {
+    -webkit-box-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+    overflow: hidden;
+}
+.weui-wepay-list__ft {
+    position: relative;
+    text-align: right;
+    padding-right: 18px;
+    overflow: hidden;
+    max-width: 50%;
+}
+.weui-wepay-list__ft:after {
+    content: " ";
+    display: inline-block;
+    height: 6px;
+    width: 6px;
+    border-width: 2px 2px 0 0;
+    border-color: #C8C8CD;
+    border-style: solid;
+    -webkit-transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+            transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    position: relative;
+    top: -2px;
+    position: absolute;
+    right: 1px;
+    top: 50%;
+    margin-top: -4px;
+}
+.weui-wepay-list__icon {
+    line-height: 1;
+}
+.weui-wepay-list__title {
+    font-size: 14px;
+    color: #333333;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.weui-wepay-list__info {
+    font-size: 12px;
+    color: #888888;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.weui-wepay-list__detail {
+    font-size: 12px;
+    color: #888888;
+}
+.weui-wepay-list_default {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.weui-wepay-list_primary .weui-wepay-list__ft {
+    padding-right: 0;
+}
+.weui-wepay-list_primary .weui-wepay-list__ft:after {
+    content: none;
+}
+.weui-wepay-lists__ft {
+    padding: 6px 15px;
+    background-color: #f8f7fc;
+    position: relative;
+}
+.weui-wepay-lists__ft:after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 1px;
+    border-top: 1px solid #979799;
+    color: #979799;
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    -webkit-transform: scaleY(0.5);
+            transform: scaleY(0.5);
+}
+.weui-wepay-lists__primary {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.weui-wepay-lists {
+    .weui-cell__hd {
+        height: 34px;
+        img {
+            margin-right: 12px;
+        }
+    }
+}
