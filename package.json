@@ -1,6 +1,6 @@
 {
     "name": "weui-extension",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "WeUI Extension 是在 WeUI 的基础上整合进 WePayUI 的样式库",
     "keywords": [
         "weui-extension",
